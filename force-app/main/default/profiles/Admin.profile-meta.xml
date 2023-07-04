@@ -6,6 +6,11 @@
         <field>Compteur__c.Valeur__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Compteur__c.end_date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>Compteur__c-Compteur Layout</layout>
     </layoutAssignments>
