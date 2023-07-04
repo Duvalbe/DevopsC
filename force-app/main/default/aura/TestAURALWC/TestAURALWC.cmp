@@ -1,0 +1,16 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,lightning:isUrlAddressable" access="global" >
+	<aura:handler name="init" value="{! this }" action="{! c.doInit }"/>    
+    <lightning:navigation aura:id="navService"/>
+    <aura:attribute name="param1" type="String" />
+    <aura:attribute name="param2" type="String" />
+    <lightning:card title="Aura Component">
+        <p class="slds-p-horizontal_small">
+            Param 1 : {! v.param1 } <br/>
+            Param 2 : {! v.param2 }
+        </p>
+    </lightning:card>
+	<div>
+    	<lightning:button variant="brand" label="Call LWC Function" onclick="{! c.handleClick }" />
+    </div>
+    <c:auraTolwc_Popup aura:id="auraTolwc_Popup"></c:auraTolwc_Popup>
+</aura:component>
