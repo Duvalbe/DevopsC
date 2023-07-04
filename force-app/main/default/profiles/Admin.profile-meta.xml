@@ -19,6 +19,10 @@
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <tabVisibilities>
+        <tab>AuraToLWC</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>Compteur__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
