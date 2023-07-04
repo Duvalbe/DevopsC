@@ -6,8 +6,5 @@
       "devHubSettings": {
           "enableDevOpsCenterGA": true
           }  
-      },
-      "orgPreferenceSettings":{
-        "selfSetPAsswordInApi":true
       }
   }
